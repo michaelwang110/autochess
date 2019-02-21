@@ -1,4 +1,4 @@
-from models.Piece import Piece
+from src.Piece import Piece
 
 class PieceManager(object):
     def __init__(self):

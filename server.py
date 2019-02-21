@@ -1,5 +1,5 @@
 from flask import Flask
-from models.BoardSystem import BoardSystem
+from src.BoardSystem import BoardSystem
 
 
 app = Flask(__name__)
