@@ -1,5 +1,5 @@
 class Piece(object):
-    def __init__(self, name, class, species, cost):
+    def __init__(self, name, clas, species, cost):
         self._name = name
-        self._class = class
+        self._clas = clas
         self._species = species

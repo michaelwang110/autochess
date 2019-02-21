@@ -1,4 +1,4 @@
-from PieceManager import PieceManager
+from models.PieceManager import PieceManager
 
 class BoardSystem(object):
     def __init__(self):
