@@ -1,5 +1,6 @@
 from flask import Flask
-from src.BoardSystem import BoardSystem, Piece
+from src.BoardSystem import BoardSystem
+from src.Piece import Piece
 import csv
 
 app = Flask(__name__)
