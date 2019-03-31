@@ -1,10 +1,9 @@
 from flask import Flask
-from src.BoardSystem import BoardSystem
+from src.BoardSystem import BoardSystem, Piece
 import csv
 
 app = Flask(__name__)
 app.secret_key = "very-secret-123"
-
 
 # Board setup
 board = BoardSystem()
