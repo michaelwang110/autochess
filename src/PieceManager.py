@@ -1,5 +1,3 @@
-from src.Piece import Piece
-
 # Stores a dictionary with Pieces key and Counter value
 class PieceManager(object):
     def __init__(self):
