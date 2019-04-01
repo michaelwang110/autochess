@@ -13,5 +13,9 @@ class PieceManager(object):
         if self._pieces[piece] != 0:
             self._pieces[piece] -= 1
 
+    def set_pieces_to_zero(self):
+        for key in self._pieces:
+            self._pieces[key] = 0
+    
     def display(self):
         return self._pieces

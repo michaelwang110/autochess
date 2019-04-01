@@ -18,4 +18,4 @@ with open('pieces/pieces.csv') as f:
         clas = row[3]
         cost = int(row[4])
         tier = int(row[5])
-        board.piece_manager.add_piece(Piece(name, species, clas, cost, tier))
+        board.add_piece(Piece(name, species, clas, cost, tier))
